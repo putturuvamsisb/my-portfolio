@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js" defer></script>
+    <link rel="icon" type="image/jpg" href="./imgs/suit.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">V</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="mailto:vamsiputturu9@gmail.com" class="button">Contact Me</a></li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small> Vamsi Putturu</h1>
+                    <p>
+                        Goal-oriented Full Stack Developer with proven proficiency in React.js and Django seeking innovative web development roles. Demonstrated ability
+                            to enhance user experience through reducing load times by 35%, elevating engagement by 40%, and improving search efficiency by 66%. Adept
+                            problem-solver dedicated to creating scalable solutions that foster business growth. <span>I'm interested in AI topics which is why I also add things like ChatGPT into my projects these days.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./imgs/VamsiPutturu_Full Stack Developer_Resume.pdf" class="button black" target="_blank">
+                            View Resume
+                        </a>
+                        <a href="mailto:vamsiputturu9@gmail.com" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><img src="./imgs/github.png" alt="GitHub" width="48" /></a>
+                        <a href="#"><img src="./imgs/linkedin.png" alt="LinkedIn" width="48" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/suit-removebg-preview.png" alt="Vamsi Putturu" width="100%" />
+            </div>
+        </section>
+
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
+                    <img src="./imgs/Bootstrap.jpeg" alt="Bootstrap" width="128" />
+                    <img src="./imgs/react.png" alt="React" width="128" />
+                    <img src="./imgs/vscode.png" alt="VS Code" width="128" />
+                    <img src="./imgs/MySQL.png" alt="MySQL" width="128" />
+                    <img src="./imgs/python.png" alt="Python" width="128" />
+                    <img src="./imgs/Django.jpeg" alt="Django" width="128" />
+                    <img src="./imgs/Github.png" alt="GitHub" width="128" />
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small> Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Django</li>
+                        <li>Python</li>
+                    </ul>
+                    <h3>Database</h3>
+                    <ul>
+                        <li>MySQL</li>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        I'm a passionate Full Stack Developer, blending creative front-end finesse with robust back-end solutions. 
+                        Driven by a love for crafting innovative, responsive, and engaging web applications, 
+                        I thrive on turning ideas into tech realities that leave a lasting impact. Always eager to learn, evolve, and push boundaries to deliver exceptional digital experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small> Internship Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <img src="https://payload-cms.code-b.dev/media/logo2.png" alt="Internship 2 - Data Analysis with Tableau" width="100%" />
+                        <figcaption>Internship -2 Full Stack Developer Intern</figcaption>
+                    </figure>
+                    <h3>FullStack Developer</h3>
+                    <div>Feb 2025 - April 2025</div> 
+                    <p>Developed key modules for NGO web application with secure JWT authentication system
+                        Integrated Razorpay payment gateway processing in donations
+                        Built RESTful APIs handling 500+ concurrent users with 99.8% uptime
+                        Achieved a 45% reduction in page load time through code optimization and lazy loading techniques 
+                    </p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="./imgs/image.png" alt="Internship 1 - Full Stack Developer" width="100%" />
+                        <figcaption>Internship - 1 Full Stack Developer</figcaption>
+                    </figure>
+                    <h3>Full Stack Developer</h3>
+                    <div>2024 - 2025 Feb</div>
+                    <p>Engineered dashboard application reducing data retrieval time by 40% using React.js and Django REST
+                        Optimized MySQL database queries resulting in 30% faster response times for high-traffic endpoints
+                        Applied responsive design principles improving mobile user engagement by 25%
+                        Collaborated in Agile environment, completing 90% of assigned tickets on time
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="bento container">
+            <h2>
+                <small>Previous</small> Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="https://vanshufoundation-frontend.vercel.app/" class="bento-item">
+                    <img src="./imgs/Screenshot_3-5-2025_23462_vanshufoundation-frontend.vercel.app.jpeg" alt="Vanshu Foundation" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/parallelogram.jpeg" alt="Parallelogram" width="100%" />
+                </a>
+                <a href="https://putturuvamsisb.github.io/To-Do/" class="bento-item">
+                    <img src="./imgs/To-Do.png" alt="To-Do List" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/Screenshot_4-5-2025_1170_127.0.0.1.jpeg" alt="Currency Converter" width="100%" />
+                </a>
+                    <a href="https://real-estate-pi-snowy.vercel.app/" class="bento-item">
+                        <img src="./imgs/Dreams Dwellings.png" alt="Dreams Dwellings" width="100%" />
+                </a>
+                <a href="https://putturuvamsisb.github.io/Vanshu_Blog/" class="bento-item">
+                    <img src="./imgs/Screenshot_4-5-2025_05514_putturuvamsisb.github.io.jpeg" alt="Blog" width="100%" />
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <p>Email: <a href="mailto:vamsiputturu9@gmail.com">vamsiputturu9@gmail.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/vamsi-putturu/">Vamsi Putturu</a></p>
+                        <p>GitHub: <a href="https://github.com/vamsiputturu">Vamsi Putturu</a></p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Location</h3>
+                        <p>Hyderabad, Telangana, India</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Professional Summary</h3>
+                        <p>Goal-oriented Full Stack Developer with proven proficiency in React.js and Django seeking innovative web development roles. Demonstrated ability
+                            to enhance user experience through reducing load times by 35%, elevating engagement by 40%, and improving search efficiency by 66%. Adept
+                            problem-solver dedicated to creating scalable solutions that foster business growth.</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Vamsi Putturu. All rights reserved.</p>
+                </div>
+            </footer>
+    </main>
+</body>
+
+</html>
